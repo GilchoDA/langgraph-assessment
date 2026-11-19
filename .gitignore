@@ -221,3 +221,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Additional environment and credential protection
+.env.*
+!.env.example
+
+# Local Visual Studio Code settings
+.vscode/
